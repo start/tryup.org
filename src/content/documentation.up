@@ -268,7 +268,7 @@ Output
 Bold
 ====
 
-Typically, people use bold text to convey extra importance---that’s what the [topic: stress] convention is for!
+Typically, people use bold text to convey extra importance---but that’s what the [topic: stress] convention is for!
 
 To make a word or phrase bold *without* conveying any extra importance, use the plain old bold convention.
 
@@ -301,9 +301,9 @@ Output
 Highlighting
 ============
 
-To draw attention to text without altering its semantics, using the highlighting convention.
+To draw attention to text *without* strictly altering its semantics, use the highlighting convention.
 
-Highlighting should not be used to emphasize or stress text! If that’s your purpose, see [topic: emphasis] or [topic: stress].
+(Generally, highlighting shouldn’t be used to emphasize or stress text. If that’s your purpose, see [topic: emphasis] or [topic: stress].)
 
 Markup
   ````
@@ -360,7 +360,7 @@ Output
   - Buy [sugar] [en.wikipedia.org/wiki/Sugar]
   - Buy (happiness) (en.wikipedia.org/wiki/Happiness)
 
-As demonstrated above, you can omit a link’s URL scheme. [^ `http://` and `https://` are examples of URL schemes.] If you do, Up uses `https://` for the URL scheme.
+As demonstrated above, you can omit a link’s URL scheme. [^ `http://` and `https://` are common examples of URL schemes.] If you do, Up uses `https://` for the URL scheme.
 
 If you’re a software developer using the Up library, you can specify a different default URL scheme. To learn more, see [topic: `defaultUrlScheme`].
 
