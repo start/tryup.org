@@ -146,11 +146,11 @@ function render(
   // In other browsers, the viewport scrolls similarly, but then it scrolls back down to
   // where it should be. (This all happens in a blink.)
   //
-  // To mitigate this Safari behavior, we manually restore the documentation's `scrollTop`
-  // to its pre-render position. Oddly, this doesn't prevent the scrolling entirely!
-  // Instead, this workaround makes Safari behave like other browsers in that the
-  // viewport scrolls up then down in a blink.
-  // TODO: For all browsers, prevent this blinking.
+  // To mitigate this Safari behavior, we manually restore the viewport's `scrollTop` to
+  // its pre-render position. Oddly, this doesn't prevent the scrolling entirely! Instead,
+  // it makes Safari behave similar to other browsers in that the viewport scrolls up then
+  // back down in a blink.
+  // TODO: For all browsers, prevent this "blinking".
   const { scrollTop } = documentationScrollerElement
 
   documentationElement.innerHTML = documentHtml
