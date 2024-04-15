@@ -1,5 +1,5 @@
 import CodeMirror from 'codemirror'
-import { parseAndRenderWithTableOfContents } from 'up-lang'
+import { parseAndRenderWithTableOfContents } from '@xcvz/up'
 import addScrollSyncingEventListeners from './addScrollSyncingEventListeners'
 import isTotallyHidden from './isTotallyHidden'
 import debounce from './debounce'
@@ -62,7 +62,7 @@ export default function configureEditor(args) {
   // not remove all indentation (which is the default behavior).
   CodeMirror.keyMap.default['Shift-Tab'] = 'indentLess'
 
-  configureCodeMirrorToIndentSoftWrapedLines(codeMirror)
+  configureCodeMirrorToIndentSoftWrappedLines(codeMirror)
   
   configureLivePreview(
     codeMirror,
@@ -239,10 +239,10 @@ function syncScrollingFromEditor(codeMirror, documentationScrollerElement) {
 //
 // It does not work when tabs are used for indentation, because CodeMirror handles
 // tab characters using a special `<span class="cm-tab">` element. Luckily, our
-// editor is conigured (by default) to use spaces for indentation.
+// editor is configured (by default) to use spaces for indentation.
 //
 // TODO: Replace leading tab characters on-paste
-function configureCodeMirrorToIndentSoftWrapedLines(codeMirror) {
+function configureCodeMirrorToIndentSoftWrappedLines(codeMirror) {
   const charWidth = codeMirror.defaultCharWidth()
 
   // This value is taken from the "PADDING" section of `codemirror.css`

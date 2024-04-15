@@ -1,5 +1,5 @@
 ##########
-What's Up?
+What’s Up?
 ##########
 
 Up is a markup language for writing structured documents in plain text.
@@ -12,7 +12,7 @@ For software developers, Up offers a software library that converts Up markup in
 Why use Up?
 ===========
 
-Up isn't the only markup language that produces HTML. What makes it special?
+Up isn’t the only markup language that produces HTML. What makes it special?
 
 
 Up has a flexible, forgiving syntax
@@ -34,7 +34,7 @@ Output
 
 Up usually ignores [topic: excessive delimiter characters].
 
-For example, you don't need to perfectly balance asterisks when stressing or emphasizing text.
+For example, you don’t need to perfectly balance asterisks when stressing or emphasizing text.
 
 Markup
   ````
@@ -44,7 +44,7 @@ Markup
 Output
   I ***love****** asterisks!
 
-Up isn't picky about which brackets you use for [topic: links].
+Up isn’t picky about which brackets you use for [topic: links].
 
 Markup
   ````
@@ -78,13 +78,13 @@ Too many markup languages devolve into a dense soup of symbols and punctuation.
 
 When a keyword would provide more clarity than a symbol, Up takes advantage of that! Several writing conventions, including [topic: tables] and [topic: revealable content], incorporate keywords.
 
-If you're a software developer using the Up library, you can provide multiple custom variations for each keyword. To learn more, please see [topic: customizing keywords].
+If you’re a software developer using the Up library, you can provide multiple custom variations for each keyword. To learn more, please see [topic: customizing keywords].
 
 
 Up produces fully accessible HTML
 =================================
 
-From the table of contents to the last movie-ruining spoiler, Up produces fully accessible HTML. This means people who have trouble viewing a screen or a using mouse can enjoy every document.
+From the table of contents to the last movie-ruining spoiler, Up produces fully accessible HTML. This means folks who might struggle to view a screen or a use mouse can enjoy every document.
 
 
 
@@ -92,16 +92,16 @@ From the table of contents to the last movie-ruining spoiler, Up produces fully 
 Why *not* use Up?
 =================
 
-You want a rich ecosystem of tools
+You want a rich ecosystem of tools
 ==================================
 
-So far, there is only one [software library for Up] (npmjs.com/package/up-lang), written and maintained by a [single person] (github.com/start). In contrast, [other markup languages] (duckduckgo.com/?q=markdown) have countless tools and plugins.
+There is only one [software library for Up] (npmjs.com/package/@xcvz/up), written and maintained by only one [person] (github.com/start). In contrast, [other markup languages] (duckduckgo.com/?q=markdown) have countless tools and plugins.
 
 
 You need speed
 ==============
 
-Up is not terribly slow, but it's not terribly fast, either---at least not yet! If you need instant, real-time parsing and rendering of large documents, Up isn't the best markup language for you.
+Up is not terribly slow, but it’s not terribly fast, either---at least not yet! If you need instant, real-time parsing and rendering of large documents, Up isn’t the best markup language for you.
 
 
 
@@ -109,7 +109,7 @@ Up is not terribly slow, but it's not terribly fast, either---at least not yet! 
 Writing conventions
 ###################
 
-Don't get lost! The following terms are occasionally used throughout this section.
+Don’t get lost! The following terms are occasionally used throughout this section.
 
 Writing convention
   Any special annotation or formatting recognized by Up.
@@ -129,19 +129,19 @@ Paragraphs are the simplest writing convention in Up.
 
 Markup
   ````
-  Unlike regular dental floss, you can use floss picks even if you're not a trained dental hygienist.
+  Unlike regular dental floss, floss picks are easy to use even if you’re not a trained dental hygienist.
 
-  Floss picks are sold in stylish, resealable plastic bags. You have no excuse not to buy some today.
+  Floss picks are sold in stylish, resealable plastic bags. Buy some today!
   ````
 
 Output
-  Unlike regular dental floss, you can use floss picks even if you're not a trained dental hygienist.
+  Unlike regular dental floss, floss picks are easy to use even if you’re not a trained dental hygienist.
 
-  Floss picks are sold in stylish, resealable plastic bags. You have no excuse not to buy some today.
+  Floss picks are sold in stylish, resealable plastic bags. Buy some today!
 
-To produce a paragraph, write a line of text. That's all there is to it!
+To produce a paragraph, write a line of text. That’s all there is to it!
 
-Typically, paragraphs are separated by one or two blank lines. Three or more blank lines between paragraphs indicates a meaningful change of subject. To learn more, see [topic: thematic breaks].
+Typically, paragraphs are separated by one or two blank lines. Three or more blank lines between paragraphs indicate a meaningful change of subject. To learn more, see [topic: thematic breaks].
 
 In contrast, *consecutive* non-blank lines produce [topic: line blocks], not consecutive paragraphs.
 
@@ -157,7 +157,7 @@ Markup
   Have you read my new poem?
 
   Roses are red
-  Violets *aren't* blue
+  Violets *aren’t* blue
   Lyrics have lines
   And addresses do, too
 
@@ -168,7 +168,7 @@ Output
   Have you read my new poem?
 
   Roses are red
-  Violets *aren't* blue
+  Violets *aren’t* blue
   Lyrics have lines
   And addresses do, too
 
@@ -268,7 +268,7 @@ Output
 Bold
 ====
 
-Typically, people use bold text to convey extra importance---that's what the [topic: stress] convention is for!
+Typically, people use bold text to convey extra importance---that’s what the [topic: stress] convention is for!
 
 To make a word or phrase bold *without* conveying any extra importance, use the plain old bold convention.
 
@@ -286,13 +286,13 @@ Like most inline writing conventions, bold text can be nested within itself.
 
 Markup
   ````
-  We've all seen the ads.
+  We’ve all seen the ads.
 
   __No hard scrubbing! __KABOOM__... and the stains are gone!__
   ````
 
 Output
-  We've all seen the ads.
+  We’ve all seen the ads.
 
   __No hard scrubbing! __KABOOM__... and the stains are gone!__
 
@@ -303,7 +303,7 @@ Highlighting
 
 To draw attention to text without altering its semantics, using the highlighting convention.
 
-Highlighting should not be used to emphasize or stress text! If that's your purpose, see [topic: emphasis] or [topic: stress].
+Highlighting should not be used to emphasize or stress text! If that’s your purpose, see [topic: emphasis] or [topic: stress].
 
 Markup
   ````
@@ -344,7 +344,7 @@ A link consists of two parts: content and a URL.
 
 To produce a link, simply enclose its content in square brackets or parentheses, then enclose its URL in square brackets or parentheses.
 
-You can use mix and match either type of bracket---they're totally interchangeable.
+You can use mix and match either type of bracket---they’re totally interchangeable.
 
 Markup
   ````
@@ -360,21 +360,21 @@ Output
   - Buy [sugar] [en.wikipedia.org/wiki/Sugar]
   - Buy (happiness) (en.wikipedia.org/wiki/Happiness)
 
-As demonstrated above, you can omit a link's URL scheme. [^ `http://` and `https://` are examples of URL schemes.] If you do, Up uses `https://` for the URL scheme.
+As demonstrated above, you can omit a link’s URL scheme. [^ `http://` and `https://` are examples of URL schemes.] If you do, Up uses `https://` for the URL scheme.
 
-If you're a software developer using the Up library, you can specify a different default URL scheme. To learn more, see [topic: `defaultUrlScheme`].
+If you’re a software developer using the Up library, you can specify a different default URL scheme. To learn more, see [topic: `defaultUrlScheme`].
 
 Other settings affecting links are:
 
 - [topic: `baseForUrlsStartingWithSlash`]
-- [topic: `baseForUrlsStartingWithHashmark`]
+- [topic: `baseForUrlsStartingWithHashMark`]
 - [topic: `renderDangerousContent`]
 
 
 Links with URLs containing spaces
 =================================
 
-If your link URL contains spaces, Up assumes you *aren't* actually trying to produce a link. So it avoids producing one!
+If your link URL contains spaces, Up assumes you *aren’t* actually trying to produce a link. So it avoids producing one!
 
 Markup
   ````
@@ -384,7 +384,7 @@ Markup
 Output
   Warlocked is the best game for GameBoy [sic] (other than Pokémon).
 
-If your link URL really does contain spaces, you can make it clear that you intend to produce a link by omitting the space between your link's content and its URL.
+If your link URL really does contain spaces, you can make it clear that you intend to produce a link by omitting the space between your link’s content and its URL.
 
 Markup
   ````
@@ -394,7 +394,7 @@ Markup
 Output
   I love the [music](duckduckgo.com/?q=chrono cross music) for Chrono Cross.
 
-When you omit the space between your link's content and its URL, Up always produces a link.
+When you omit the space between your link’s content and its URL, Up always produces a link.
 
 These rules also apply when [topic: linkifying].
 
@@ -429,17 +429,17 @@ Markup
 Output
   "Only eat the green grapes," John said.
 
-You already know how to use quotation marks! Just keep doing what you're doing.
+You already know how to use quotation marks! Just keep doing what you’re doing.
 
 Like most inline writing conventions, inline quotes can be nested within themselves.
 
 Markup
   ````
-  Bob replied, "Yesterday, Harvey yelled "I'll take the case!", but I doubt he will."
+  Bob replied, "Yesterday, Harvey yelled "I’ll take the case!", but I doubt he will."
   ````
 
 Output
-  Bob replied, "Yesterday, Harvey yelled "I'll take the case!", but I doubt he will."
+  Bob replied, "Yesterday, Harvey yelled "I’ll take the case!", but I doubt he will."
 
 
 ==================
@@ -501,21 +501,21 @@ When you need to represent more than a small fragment of computer code, use [top
 
 Markup
   ````
-  In HTML, you probably shouldn't use the `<font>` element.
+  In HTML, you probably shouldn’t use the `<font>` element.
   ````
 
 Output
-  In HTML, you probably shouldn't use the `<font>` element.
+  In HTML, you probably shouldn’t use the `<font>` element.
 
 To produce inline code, enclose text within an equal number of backticks on either side. You can use any number of backticks---simply make sure both sides match.
 
 Markup
   ````
-  In HTML, you probably shouldn't use the ``<font>`` element.
+  In HTML, you probably shouldn’t use the ``<font>`` element.
   ````
 
 Output
-  In HTML, you probably shouldn't use the ``<font>`` element.
+  In HTML, you probably shouldn’t use the ``<font>`` element.
 
 Within inline code, other writing conventions are ignored. Characters that normally have special meaning are preserved as plain text.
 
@@ -543,7 +543,7 @@ Output
 
 For more information about the behavior of backslashes, see [topic: disabling].
 
-Alternatively, inline code can contain streaks of backticks that aren't exactly as long as the inline code's outer delimiters. No backslashes are necessary.
+Alternatively, inline code can contain streaks of backticks that aren’t exactly as long as the inline code’s outer delimiters. No backslashes are necessary.
 
 In this example, the delimiters are **1** backtick long, so the inline code can contain streaks of **2** backticks:
 
@@ -591,7 +591,7 @@ Markup
 Output
   ``    `inline_code`    ``
 
-Furthermore, that single space is only trimmed away when it's necessary to separate a delimiter from backticks in your inline code. If a given "side" of inline code has any non-space characters between the delimiter and the outermost backtick, no spaces are trimmed from that side.
+Furthermore, that single space is only trimmed away when it’s necessary to separate a delimiter from backticks in your inline code. If a given "side" of inline code has any non-space characters between the delimiter and the outermost backtick, no spaces are trimmed from that side.
 
 Markup
   ````
@@ -618,7 +618,7 @@ Output
   Example heading
   ===============
 
-If text is underlined, it's treated as a heading. The underline can consist of any combination of the following characters (you can mix and match):
+If text is underlined, it’s treated as a heading. The underline can consist of any combination of the following characters (you can mix and match):
 
 - Hyphens: `-`
 - Number signs: `#`
@@ -629,7 +629,7 @@ If text is underlined, it's treated as a heading. The underline can consist of a
 - Asterisks: `*`
 - At signs: `@`
 
-A heading's underline must be at least three characters long, but it does *not* need to be the same length as the text of the heading.
+A heading’s underline must be at least three characters long, but it does *not* need to be the same length as the text of the heading.
 
 Markup
   ````
@@ -688,7 +688,7 @@ Markup
 Output
   Up even supports [topic: overlapping]!
 
-To link to a heading, choose a unique snippet of markup from that heading's content line. [^ Don't worry about the heading's underline or overline! Section links ignore both.] Enclose that markup snippet within square brackets or parentheses, then insert `topic:` or `section:` directly inside your opening bracket.
+To link to a heading, choose a unique snippet of markup from that heading’s content line. [^ Don’t worry about the heading’s underline or overline! Section links ignore both.] Enclose that markup snippet within square brackets or parentheses, then insert `topic:` or `section:` directly inside your opening bracket.
 
 Up automatically matches your snippet to the most appropriate heading, then produces a link for you.
 
@@ -696,7 +696,7 @@ Up automatically matches your snippet to the most appropriate heading, then prod
 Matching the most appropriate heading
 =====================================
 
-Initially, Up tries to match your section link to the first heading whose content line's markup *exactly matches* your snippet. [^ Up totally ignores the capitalization of section links' markup snippets, so a section link and a heading can be an "exact match" without being capitalized the same way.] If there isn't an exact match, Up matches your section link to the first heading whose content line markup *contains* your snippet.
+Initially, Up tries to match your section link to the first heading whose content line’s markup *exactly matches* your snippet. [^ Up totally ignores the capitalization of section links' markup snippets, so a section link and a heading can be an "exact match" without being capitalized the same way.] If there isn’t an exact match, Up matches your section link to the first heading whose content line markup *contains* your snippet.
 
 
 =========
@@ -768,7 +768,7 @@ Syntax
 
 To embed media in your document, simply enclose its description in square brackets or parentheses, then enclose its URL in square brackets or parentheses.
 
-You can use mix and match either type of bracket---they're totally interchangeable.
+You can use mix and match either type of bracket---they’re totally interchangeable.
 
 ------------------
 Media descriptions
@@ -784,12 +784,12 @@ Media URLs
 
 As demonstrated above, you can omit the URL scheme for media URLs. If you do, Up uses `https://` for the URL scheme.
 
-If you're a software developer using the Up library, you can specify a different default URL scheme. To learn more, see [topic: `defaultUrlScheme`].
+If you’re a software developer using the Up library, you can specify a different default URL scheme. To learn more, see [topic: `defaultUrlScheme`].
 
 Other settings affecting media are:
 
 - [topic: `baseForUrlsStartingWithSlash`]
-- [topic: `baseForUrlsStartingWithHashmark`]
+- [topic: `baseForUrlsStartingWithHashMark`]
 - [topic: `renderDangerousContent`]
 
 
@@ -841,7 +841,7 @@ Markup
   SPOILER:
     After defeating the Elite Four at the end of Pokémon Red, you still have to battle your rival one last time.
 
-    Your rival's specific lineup depends on the Pokémon you selected at the beginning of the game. However, his first three Pokémon are always the same:
+    Your rival’s specific lineup depends on the Pokémon you selected at the beginning of the game. However, his first three Pokémon are always the same:
 
     1. Pidgeot
     2. Alakazam
@@ -852,7 +852,7 @@ Output
   SPOILER:
     After defeating the Elite Four at the end of Pokémon Red, you still have to battle your rival one last time.
 
-    Your rival's specific lineup depends on the Pokémon you selected at the beginning of the game. However, his first three Pokémon are always the same:
+    Your rival’s specific lineup depends on the Pokémon you selected at the beginning of the game. However, his first three Pokémon are always the same:
 
     1. Pidgeot
     2. Alakazam
@@ -877,15 +877,15 @@ Markup
   ````
   > I hate oranges for the following reasons:
   >
-  > 1. They're not apples.
-  > 2. They're not bananas.
+  > 1. They’re not apples.
+  > 2. They’re not bananas.
   ````
 
 Output
   > I hate oranges for the following reasons:
   >
-  > 1. They're not apples.
-  > 2. They're not bananas.
+  > 1. They’re not apples.
+  > 2. They’re not bananas.
 
 A blockquote consists of consecutive lines starting with `> ` (a greater-than symbol followed by a space).
 
@@ -897,8 +897,8 @@ Markup
   >
   > > I hate oranges for the following reasons:
   > >
-  > > 1. They're not apples.
-  > > 2. They're not bananas.
+  > > 1. They’re not apples.
+  > > 2. They’re not bananas.
   >
   > I completely understand.
   ````
@@ -908,8 +908,8 @@ Output
   >
   > > I hate oranges for the following reasons:
   > >
-  > > 1. They're not apples.
-  > > 2. They're not bananas.
+  > > 1. They’re not apples.
+  > > 2. They’re not bananas.
   >
   > I completely understand.
 
@@ -1042,7 +1042,7 @@ Output
 List items consisting of multiple lines
 =======================================
 
-List items aren't limited to a single line!  Bulleted lists can contain any outline writing convention, including other bulleted lists.
+List items aren’t limited to a single line!  Bulleted lists can contain any outline writing convention, including other bulleted lists.
 
 If your list item contains more than one line, subsequent lines should be indented 2 spaces (or a tab).
 
@@ -1057,12 +1057,12 @@ Markup
     Only buy bread from one of the following brands:
 
     * Little Northern Bakehouse
-    * Udi's
+    * Udi’s
     * Canyon Bakehouse
 
   - Buy happiness.
 
-    Don't spend more than a few cents on this.
+    Don’t spend more than a few cents on this.
   ````
 
 Output
@@ -1075,12 +1075,12 @@ Output
     Only buy bread from one of the following brands:
 
     * Little Northern Bakehouse
-    * Udi's
+    * Udi’s
     * Canyon Bakehouse
 
   - Buy happiness.
 
-    Don't spend more than a few cents on this. Not worth it.
+    Don’t spend more than a few cents on this.
 
 
 ==============
@@ -1117,7 +1117,7 @@ Like each bullet in a bulleted list, each ordinal in a numbered list must be fol
 Lists starting at a specific number
 ===================================
 
-Numbered lists don't have to start at `1`.
+Numbered lists don’t have to start at `1`.
 
 Markup
   ````
@@ -1165,7 +1165,7 @@ Markup
 Output
   1) Buy milk
 
-There's a small exception to this rule: If your list item's ordinal is expressed as an integer followed by a period (e.g. `1.`), you must have more than one list item. This exception helps prevent "accidental" numbered lists.
+There’s a small exception to this rule: If your list item’s ordinal is expressed as an integer followed by a period (e.g. `1.`), you must have more than one list item. This exception helps prevent "accidental" numbered lists.
 
 Markup
   ````
@@ -1190,7 +1190,7 @@ You can use description lists for:
 
 Markup
   ````
-  Kirby's Dreamland
+  Kirby’s Dreamland
     A video game about a flying marshmallow.
 
   Super Mario Land
@@ -1198,7 +1198,7 @@ Markup
   ````
 
 Output
-  Kirby's Dreamland
+  Kirby’s Dreamland
     A video game about a flying marshmallow.
 
   Super Mario Land
@@ -1238,14 +1238,14 @@ Markup
   Game Boy Light
   Game Boy Pocket
   Game Boy Color
-    Handheld videogame systems released by Nintendo in the 1990s.
+    Handheld video game systems released by Nintendo in the 1990s.
   ````
 
 Output
   Game Boy Light
   Game Boy Pocket
   Game Boy Color
-    Handheld videogame systems released by Nintendo in the 1990s.
+    Handheld video game systems released by Nintendo in the 1990s.
 
 
 Descriptions
@@ -1349,14 +1349,14 @@ Output
 
 A table consists of:
 
-- An optional caption, representing the table's title
+- An optional caption, representing the table’s title
 - A header row, describing each column
 - Content rows, representing the actual data
 - An optional header column, describing each row
 
 Table cells are separated by semicolons. To learn more, see [topic: cells].
 
-Our examples use extra spaces to align cells. This makes our markup more readable, but it's strictly optional! If you want, you can squish your cells together, as long as any empty cells contain at least one space. To learn more, please see [topic: empty cells].
+Our examples use extra spaces to align cells. This makes our markup more readable, but it’s strictly optional! If you want, you can squish your cells together, as long as any empty cells contain at least one space. To learn more, please see [topic: empty cells].
 
 Squished markup
   ````
@@ -1382,7 +1382,7 @@ Output
 The caption
 ===========
 
-The text after `Table:` is treated as the table's caption. Captions can contain any inline writing convention.
+The text after `Table:` is treated as the table’s caption. Captions can contain any inline writing convention.
 
 Markup
   ````
@@ -1404,7 +1404,7 @@ Output
   Lemon;      Yellow;     Sour
   Banana;     Yellow;     Sweet
 
-Captions are strongly encouraged, but they're not required. To create a table without a caption, simply put "Table" on its own line.
+Captions are strongly encouraged, but they’re not required. To create a table without a caption, simply put "Table" on its own line.
 
 Markup
   ````
@@ -1488,7 +1488,7 @@ A cell consisting solely of spaces (one or more) is considered empty.
 
 Normally, you have to put at least one space in the cell, because consecutive semicolons indicate that you want the previous cell to span multiple columns.
 
-However, to indicate that the *first* cell in a row should be empty, simply start that row with a semicolon. You don't need to put any spaces before it.
+However, to indicate that the *first* cell in a row should be empty, simply start that row with a semicolon. You don’t need to put any spaces before it.
 
 Markup
   ````
@@ -1510,7 +1510,7 @@ Output
   November 18, 1999;  Chrono Cross
   ;                   Chrono Break
 
-Likewise, to indicate that the *last* cell in a row should be empty, simply end that row with a semicolon. You don't need to add any spaces after it.
+Likewise, to indicate that the *last* cell in a row should be empty, simply end that row with a semicolon. You don’t need to add any spaces after it.
 
 Markup
   ````
@@ -1558,13 +1558,13 @@ Output
   Leech Seed;   Grass;    ;       90%
   Vine Whip;    Grass;    45;     100%
 
-Cells in a table's header can contain any inline writing convention.
+Cells in a table’s header can contain any inline writing convention.
 
 
 Content rows
 ============
 
-The "content rows" of a table follow its header row. The content rows contain the table's actual data.
+The "content rows" of a table follow its header row. The content rows contain the table’s actual data.
 
 If a content row is followed by a blank line, it ends the table.
 
@@ -1603,7 +1603,7 @@ Including a header column in your table
 
 To indicate your table has a header column, simply indent its header *row* at least two spaces (or a tab).
 
-When you indent a table's the header row, Up automatically treats the first cell in each subsequent row as the header column.
+When you indent a table’s the header row, Up automatically treats the first cell in each subsequent row as the header column.
 
 Markup
   ````
@@ -1662,13 +1662,13 @@ Code blocks are surrounded (underlined and "overlined") by matching streaks of 3
 
 If there is no matching end streak, the code block extends to the end of the document (or to the end of the current outline writing convention, if the code block is nested within one).
 
-Within a code block, indentation is preserved, and every single character is treated literally. No other writing conventions are recognized, which means code blocks don't support [topic: disabling].
+Within a code block, indentation is preserved, and every single character is treated literally. No other writing conventions are recognized, which means code blocks don’t support [topic: disabling].
 
 
 Including streaks of backticks
 ==============================
 
-Code blocks can contain streaks of backticks that aren't exactly as long as the enclosing streaks.
+Code blocks can contain streaks of backticks that aren’t exactly as long as the enclosing streaks.
 
 Markup
   `````````
@@ -1717,9 +1717,9 @@ Messy markup
 Output
   [(image: Warlocked box art) (i.imgur.com/879AeYU.jpg)] [en.wikipedia.org/wiki/Warlocked]
 
-That's a lot of brackets! Luckily, there's a shortcut.
+That’s a lot of brackets! Luckily, there’s a shortcut.
 
-Simply place the "linkifying" URL after the image's own URL, and Up will produce a link for you.
+Simply place the "linkifying" URL after the image’s own URL, and Up will produce a link for you.
 
 Cleaner markup
   ````
@@ -1729,7 +1729,7 @@ Cleaner markup
 Output
   [image: Warlocked box art] [i.imgur.com/879AeYU.jpg] (en.wikipedia.org/wiki/Warlocked)
 
-When linkifying an image, you can mix and match square brackets and parentheses---they're totally interchangeable.
+When linkifying an image, you can mix and match square brackets and parentheses---they’re totally interchangeable.
 
 This shortcut also works for the following inline writing conventions:
 
@@ -1772,13 +1772,13 @@ Consecutive periods represent an ellipsis, so Up replaces them with a fancy elli
 
 Markup
   ````
-  I don't know... I doubt a spider would do this.
+  I don’t know... I doubt a spider would do this.
   ````
 
 Output
-  I don't know... I doubt a spider would do this.
+  I don’t know... I doubt a spider would do this.
 
-If you're a software developer using the Up library, you can specify a different fancy ellipsis (e.g. `⋯`). To learn more, see [topic: `fancyEllipsis`].
+If you’re a software developer using the Up library, you can specify a different fancy ellipsis (e.g. `⋯`). To learn more, see [topic: `fancyEllipsis`].
 
 
 En dash
@@ -1802,11 +1802,11 @@ Three consecutive hyphens produce an em dash.
 
 Markup
   ````
-  Use a spoon---a fork won't cut it.
+  Use a spoon---a fork won’t cut it.
   ````
 
 Output
-  Use a spoon---a fork won't cut it.
+  Use a spoon---a fork won’t cut it.
 
 
 Plus-minus sign
@@ -1837,7 +1837,7 @@ Markup
 Output
   This organic, ====gluten-free==== cupcake is too expensive.
 
-This includes when delimiter characters aren't perfectly balanced on either side.
+This includes when delimiter characters aren’t perfectly balanced on either side.
 
 Markup
   ````
@@ -1891,7 +1891,7 @@ Output
 Superficial overlapping
 =======================
 
-If conventions overlap superficially---by only their start or end delimiters---Up pretends they weren't overlapped at all.
+If conventions overlap superficially---by only their start or end delimiters---Up pretends they weren’t overlapped at all.
 
 Markup
   ````
@@ -1907,7 +1907,7 @@ Output
 Using the Up library
 ####################
 
-The Up library can be [found on NPM] (npmjs.com/package/up-lang).
+The Up library can be [found on NPM] (npmjs.com/package/@xcvz/up).
 
 
 ============
@@ -1915,7 +1915,7 @@ Installation
 ============
 
 ````
-npm install up-lang --save
+npm install @xcvz/up --save
 ````
 
 
@@ -1923,17 +1923,17 @@ npm install up-lang --save
 Usage Overview
 ==============
 
-Typically, you'll want to use one of the various [topic: functions] exported by the library.
+Typically, you’ll want to use one of the various [topic: functions] exported by the library.
 
 ````
-const { parseAndRender } = require("up-lang")
+const { parseAndRender } = require("@xcvz/up")
 
 const html = parseAndRender(markup, optionalSettings)
 ````
 
 Alternatively, you can use the exported `Up` class, which can be helpful if you need to parse or render several documents sharing custom settings. Please see [topic: `Up`] to learn more.
 
-If you plan to modify or analyze a parsed document, you'll want to check out the [topic: abstract syntax tree classes].
+If you plan to modify or analyze a parsed document, you’ll want to check out the [topic: abstract syntax tree classes].
 
 
 =========
@@ -2068,7 +2068,6 @@ Usage
       rendering: {
         idPrefix: "byline",
         terms: {
-          footnoteReference: "footnote mention",
           reveal: "show"
         }
       }
@@ -2201,7 +2200,7 @@ Usage
     const { tableOfContentsHtml, documentHtml } =
       renderWithTableOfContents(document, {
         idPrefix: "article",
-        terms: { revveal: "expand" }
+        terms: { reveal: "expand" }
       })
     ````
 
@@ -2234,7 +2233,6 @@ Usage
     const html = renderInline(inlineDocument, {
       idPrefix: "byline",
       terms: {
-        footnoteReference: "footnote mention",
         reveal: "show"
       }
     })
@@ -2253,10 +2251,10 @@ However, the `Up` class can be helpful if you need to parse or render several do
 Those shared settings can be provided just once---in the constructor. Then, when calling methods on your object, you only need to provide settings that overwrite (or supplement) the ones you provided to the constructor.
 
 ````
-const { Up } = require("up-lang")
+const { Up } = require("@xcvz/up")
 
 const up = new Up(settings)
-const html = up.parseAndRender(markup, changedSettings)
+const html = up.parseAndRender(markup, supplementalSettings)
 ````
 
 
@@ -2286,7 +2284,7 @@ Constructor arguments
 Methods
 =======
 
-This class's methods have the exact same names and arguments as the library's [topic: functions].
+This class’s methods have the exact same names and arguments as the library’s [topic: functions].
 
 --------------------------------------
 Invoking a method with custom settings
@@ -2423,7 +2421,7 @@ Members (all of which are optional)
   [topic: `baseForUrlsStartingWithSlash`]: `string`
     The base for URLs starting with `/`.
 
-  [topic: `baseForUrlsStartingWithHashmark`]: `string`
+  [topic: `baseForUrlsStartingWithHashMark`]: `string`
     The base for URLs starting with `#`.
 
   [topic: `fancyEllipsis`]: `string`
@@ -2500,7 +2498,7 @@ The `defaultUrlScheme` is prefixed to any link URL or media URL without a URL sc
 For URLs *with* a URL scheme, this setting has no effect. Furthermore, this setting is not applied to URLs that start with `/` or `#`. For those URLs, see:
 
 - [topic: `baseForUrlsStartingWithSlash`]
-- [topic: `baseForUrlsStartingWithHashmark`]
+- [topic: `baseForUrlsStartingWithHashMark`]
 
 Usage
   ````
@@ -2637,7 +2635,7 @@ Members (all of which are optional)
     `sectionReferencedByTableOfContents`: `string`
       Appears in the URLs of table of contents entries.
 
-    You don't need to worry about escaping any characters in your custom terms! Up handles that for you.
+    You don’t need to worry about escaping any characters in your custom terms! Up handles that for you.
 
 
 --------------------
@@ -2646,9 +2644,9 @@ Members (all of which are optional)
 
 If you are rendering multiple documents onto the same page, you need to use this setting to prevent HTML ID collisions between documents.
 
-By default, `idPrefix` is `up` to prevent ID collisions with any HTML elements *not* rendered by Up. If you don't want any ID prefix, you can set `idPrefix` to an empty string.
+By default, `idPrefix` is `up` to prevent ID collisions with any HTML elements *not* rendered by Up. If you don’t want any ID prefix, you can set `idPrefix` to an empty string.
 
-You don't need to worry about escaping HTML for your `idPrefix`---Up automatically handles that for you. Furthermore, Up automatically converts any spaces in your `idPrefix` to hyphens.
+You don’t need to worry about escaping HTML for your `idPrefix`---Up automatically handles that for you. Furthermore, Up automatically converts any spaces in your `idPrefix` to hyphens.
 
 Usage
   ````
@@ -2699,9 +2697,9 @@ In certain contexts, you might want to restrict a document to just a single line
 
 - A chat message
 - The title of a thread on a message board
-- The byline for a user's profile
+- The byline for a user’s profile
 
-That's what inline documents are for! To take advantage of inline documents, use one of the following functions:
+That’s what inline documents are for! To take advantage of inline documents, use one of the following functions:
 
 - [topic: `parseAndRenderInline`]
 - [topic: `parseInline`]
@@ -2711,7 +2709,7 @@ That's what inline documents are for! To take advantage of inline documents, use
 Syntax differences
 ==================
 
-Within inline documents, Up ignores all outline writing conventions. Furthermore, [topic: footnotes] and [topic: section links] aren't supported.
+Within inline documents, Up ignores all outline writing conventions. Furthermore, [topic: footnotes] and [topic: section links] aren’t supported.
 
 When Up encounters a footnote in an inline document, it pretends the author had used parentheses instead of a footnote.
 
@@ -2722,7 +2720,7 @@ Inline markup
 Output
   My dad (Professor Oak) is very wise.
 
-Within inline documents, Up doesn't recognize the syntax for section links. Consequently, their markup is instead treated as regular old text enclosed within brackets.
+Within inline documents, Up doesn’t recognize the syntax for section links. Consequently, their markup is instead treated as regular old text enclosed within brackets.
 
 Inline markup
   ````
@@ -2739,12 +2737,12 @@ When inline documents are rendered, the resulting HTML is *not* enclosed within 
 
 Inline markup
   ````
-  I *really* like Starcraft.
+  I *really* like StarCraft.
   ````
 
 Rendered inline HTML
   ````
-  I <em>really</em> like Starcraft.
+  I <em>really</em> like StarCraft.
   ````
 
 
@@ -2753,22 +2751,22 @@ Rendered inline HTML
 Abstract syntax tree classes
 ============================
 
-Unless you're fiddling with the abstract syntax tree of a parsed document, you can safely ignore this section.
+Unless you’re fiddling with the abstract syntax tree of a parsed document, you can safely ignore this section.
 
 Every class used in the abstract syntax tree is exported by the library.
 
 ````
-const { Blockquote } = require("up-lang")
+const { Blockquote } = require("@xcvz/up")
 
 if (syntaxNode instanceof Blockquote) {
   // Do something
 }
 ````
 
-If you're using TypeScript, you can take advantage of several interfaces used in the abstract syntax tree, too.
+If you’re using TypeScript, you can take advantage of several interfaces used in the abstract syntax tree, too.
 
 ````
-const { SyntaxNode } = require("up-lang")
+const { SyntaxNode } = require("@xcvz/up")
 
 function handle(node: SyntaxNode): void {
   // Do something
@@ -2788,13 +2786,13 @@ Extends
 
 Unique members
   `tableOfContents`: [topic: Document.TableOfContents]
-    An object representing the document's table of contents.
+    An object representing the document’s table of contents.
 
   `create` method (static)
     Purpose
       This method returns a ready-to-render syntax tree from a collection of outline syntax nodes.
 
-      Usually, you'll want to use this static method instead of the constructor.
+      Usually, you’ll want to use this static method instead of the constructor.
 
     Arguments
       `children`: array of [topic: `OutlineSyntaxNode`]
@@ -2815,14 +2813,14 @@ Constructor arguments
     A collection of outline syntax nodes representing the content of this document.
 
   `tableOfContents` (optional): [topic: `Document.TableOfContents`]
-    The document's table of contents.
+    The document’s table of contents.
 
 Rendered HTML
   When rendered to HTML, the document is *not* put into an outer container element.
 
   ````
   <p>
-    Unlike regular dental floss, you can use floss picks even if you're <em>not</em> a trained dental hygienist.
+    Unlike regular dental floss, you can use floss picks even if you’re <em>not</em> a trained dental hygienist.
   </p>
   <p>
     Floss picks are sold in stylish, resealable plastic bags. You have no excuse not to buy some today.
@@ -2890,7 +2888,7 @@ This interface represents an entry in the table of contents.
 
 Members
   `ordinalInTableOfContents`: `number`
-    The entry's ordinal in the table of contents. The first ordinal is `1`, not `0`.
+    The entry’s ordinal in the table of contents. The first ordinal is `1`, not `0`.
 
   `level`: `number`
     The heading level of the entry. Like HTML heading levels, a level of 1 is considered the most significant.
@@ -2916,7 +2914,7 @@ Members
 
   `contentWithinTableOfContents` method
     Return type: array of [topic: `InlineSyntaxNode`]
-      This method returns the inline syntax nodes that should represent this entry's content inside the table of contents itself.
+      This method returns the inline syntax nodes that should represent this entry’s content inside the table of contents itself.
 
     Arguments
       None.
@@ -2955,7 +2953,7 @@ Members
       None.
 
 Notes
-  This interface also has a `render` method, but it isn't relevant to developers using the Up library.
+  This interface also has a `render` method, but it isn’t relevant to developers using the Up library.
 
 
 `InlineSyntaxNode` (interface)
@@ -2978,7 +2976,7 @@ Unique members
 
   `textAppearingInline` method
     Return type: `string`
-      This method returns the text of the syntax node as it should appear inline. Some inline writing conventions don't have any text appearing inline, including [topic: footnotes] and [topic: images].
+      This method returns the text of the syntax node as it should appear inline. Some inline writing conventions don’t have any text appearing inline, including [topic: footnotes] and [topic: images].
 
       This method is helps determine whether table cells are numeric.
 
@@ -3114,21 +3112,21 @@ Implements
 
 Unique members
   `description`: `string`
-    The media's description.
+    The media’s description.
 
   `url`: `string`
-    Represents the media's URL after the following settings are applied:
+    Represents the media’s URL after the following settings are applied:
 
     - [topic: `defaultUrlScheme`]
     - [topic: `baseForUrlsStartingWithSlash`]
-    - [topic: `baseForUrlsStartingWithHashmark`]
+    - [topic: `baseForUrlsStartingWithHashMark`]
 
 Constructor arguments
   `description`: string
-    The media's description.
+    The media’s description.
 
   `url`: string
-    The media's URL.
+    The media’s URL.
 
   `options` (optional)
     `sourceLineNumber`: number
@@ -3311,7 +3309,7 @@ Constructor arguments
 Rendered HTML
   ````
   <dl>
-    <dt>Kirby's Dreamland</dt>
+    <dt>Kirby’s Dreamland</dt>
     <dd>
       <p>A video game about a flying marshmallow.</p>
     </dd>
@@ -3437,7 +3435,7 @@ Rendered HTML
 `FootnoteBlock` (class)
 =======================
 
-Footnotes are written inline, but they aren't meant to appear inline in the final document. That would defeat the purpose of footnotes! Instead, footnotes are extracted and placed in footnote blocks. This class represents one of those footnote blocks.
+Footnotes are written inline, but they aren’t meant to appear inline in the final document. That would defeat the purpose of footnotes! Instead, footnotes are extracted and placed in footnote blocks. This class represents one of those footnote blocks.
 
 Implements
   [topic: `OutlineSyntaxNode`]
@@ -3483,7 +3481,7 @@ Implements
 
 Unique members
   `level`: `number`
-    A heading's level represents its significance in the document. Like HTML heading levels, a level of 1 is considered the most significant.
+    A heading’s level represents its significance in the document. Like HTML heading levels, a level of 1 is considered the most significant.
 
 Constructor arguments
   `children`: array of [topic: `InlineSyntaxNode`]
@@ -3499,7 +3497,7 @@ Constructor arguments
       Section links compare their `markupSnippetFromSectionTitle` against this field.
 
     `ordinalInTableOfContents` (optional): `number`
-      Represents this heading's ordinal in the table of contents. The first ordinal is `1`, not `0`.
+      Represents this heading’s ordinal in the table of contents. The first ordinal is `1`, not `0`.
 
     `sourceLineNumber` (optional): number
       The line number of the first line of markup that created this heading.
@@ -3707,11 +3705,11 @@ Implements
 
 Unique members
   `url`: `string`
-    This links's URL after the following settings are applied:
+    This links’s URL after the following settings are applied:
 
     - [topic: `defaultUrlScheme`]
     - [topic: `baseForUrlsStartingWithSlash`]
-    - [topic: `baseForUrlsStartingWithHashmark`]
+    - [topic: `baseForUrlsStartingWithHashMark`]
 
 Constructor arguments
   `children`: array of [topic: `InlineSyntaxNode`]
@@ -3770,7 +3768,7 @@ Unique members
 
   `order` method
     Return type: [topic: `NumberedList.Order`]
-      This method returns the order of this numered list.
+      This method returns the order of this numbered list.
 
     Arguments
       None.
@@ -3899,7 +3897,7 @@ Constructor arguments
 
 Rendered HTML
   When matched with a heading
-    Up renders a link to that heading. The rendered link contains the heading's content.
+    Up renders a link to that heading. The rendered link contains the heading’s content.
 
     ````
     <a href="#up-topic-77">Using the Up library</a>
@@ -4120,7 +4118,7 @@ Unique members
     Return type: array of [topic: `Table.Cell`]
       This method returns every cell in this row.
 
-      If the table has a header column, the row's `headerColumnCell` is the first item in the returned collection.
+      If the table has a header column, the row’s `headerColumnCell` is the first item in the returned collection.
 
     Arguments
       None.

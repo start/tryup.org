@@ -19,9 +19,12 @@
     padding: 0;
   }
 
-  // Normally, we style example input differently if it's within a link.
+  // Normally, if example user input is within a link, we shade it like
+  // a link.
   //
-  // In the table of contents, everything is a link, so there's no need.
+  // However, in the table of contents, we don't apply special styling
+  // to links; everything is a link! Thus, we don't want to apply
+  // special styling to example user input within links, either.
   kbd { @include default-example-user-input-shading }
 
   // The same logic applies for inline code.
@@ -40,8 +43,9 @@
     // That being said, nearly all of the headings described above have
     // levels 3 and up.
     //
-    // We won't clutter the table of contents by displaying parenthetical
-    // text in top-level or second-level headings.
+    // Thus, it wouldn't really clutter the table of contents to
+    // display parenthetical text in top-level or second-level
+    // headings.
     small { display: inline }
   }
 

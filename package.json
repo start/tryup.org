@@ -2,19 +2,19 @@
   "private": true,
   "name": "tryup.org",
   "version": "0.0.0",
-  "description": "The official site for [Up](https://github.com/start/up), a lightweight markup language for writing structured content for the web.",
+  "description": "The official site for [Up](https://github.com/start/up), a markup language for writing structured content in plain text.",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "rm -f docs/{index.html,*.js} && webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unplannedcompany/tryup.org.git"
+    "url": "git+https://github.com/start/tryup.org.git"
   },
   "author": "Daniel Miller <daniel@wants.email>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/unplannedcompany/tryup.org/issues"
+    "url": "https://github.com/start/tryup.org/issues"
   },
   "homepage": "https://tryup.org",
   "devDependencies": {
@@ -33,7 +33,7 @@
     "raw-loader": "3.1.0",
     "sass-loader": "7.3.1",
     "style-loader": "1.0.0",
-    "up-lang": "39.0.0",
+    "@xcvz/up": "1.0.1",
     "webpack": "4.39.3",
     "webpack-cli": "3.3.7",
     "webpack-dev-server": "3.8.0"

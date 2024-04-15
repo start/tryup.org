@@ -1,6 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const fs = require('fs')
-const Up = require('up-lang')
+const Up = require('@xcvz/up')
 const upSettings = require('./src/upSettings')
 const path = require('path')
 
