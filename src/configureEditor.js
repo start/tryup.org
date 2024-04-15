@@ -139,10 +139,18 @@ function render(
     parseAndRenderWithTableOfContents(markup, upSettings)
 
   // In Safari, if the documentation contains any audio or video players, and if the user
-  // edits markup while the viewport is past the first media player, the viewport automatically
-  // jumps back to the first media player when its HTML is re-rendered.
+  // edits markup while the viewport is scrolled past the first media player, the viewport
+  // automatically scrolls up to the first media player once the documentation is
+  // re-rendered.
   //
-  // To avoid this, we manually restore its `scrollTop` to its pre-render position.
+  // In other browsers, the viewport scrolls similarly, but then it scrolls back down to
+  // where it should be. (This all happens in a blink.)
+  //
+  // To mitigate this Safari behavior, we manually restore the documentation's `scrollTop`
+  // to its pre-render position. Oddly, this doesn't prevent the scrolling entirely!
+  // Instead, this workaround makes Safari behave like other browsers in that the
+  // viewport scrolls up then down in a blink.
+  // TODO: For all browsers, prevent this blinking.
   const { scrollTop } = documentationScrollerElement
 
   documentationElement.innerHTML = documentHtml

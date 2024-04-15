@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     configureEditor({
       editorContainerElement,
       documentationContainerElement,
-      documentationScrollerElement: document.body,
+      documentationScrollerElement: document.documentElement,
       documentationElement: getElementById('documentation'),
       tableOfContentsElement: getElementById('table-of-contents')
     })
