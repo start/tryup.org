@@ -3097,7 +3097,7 @@ Constructor arguments
 `MediaSyntaxNode` (class)
 =========================
 
-All media syntax node classes extend this abstract class:
+All three media syntax node classes extend this abstract class:
 
 - [topic: `Image`]
 - [topic: `Video`]
@@ -3130,7 +3130,7 @@ Constructor arguments
 
   `options` (optional)
     `sourceLineNumber`: number
-      The line number of the line of markup that created this media syntax node.
+      The line number of the markup that produced this media syntax node.
 
 
 `ParentheticalSyntaxNode` (class)
@@ -3720,7 +3720,7 @@ Constructor arguments
 
   `options`
     `sourceLineNumber` (optional): number
-      The line number of the line of markup that created this link.
+      The line number of the markup that produced this link.
 
 Rendered HTML
   ````
@@ -3841,7 +3841,7 @@ Constructor arguments
 
   `options` (optional)
     `sourceLineNumber`: number
-      The line number of the line of markup that created this paragraph.
+      The line number of the markup that produced this paragraph.
 
 Rendered HTML
   ````
@@ -4177,7 +4177,7 @@ Extends
 Constructor arguments
   `options` (optional)
     `sourceLineNumber`: number
-      The line number of the line of markup that created this thematic break.
+      The line number of the markup that produced this thematic break.
 
 Rendered HTML
   ````
