@@ -2,7 +2,13 @@
 What’s Up?
 ##########
 
-Up is a markup language for writing structured documents in plain text.
+Up is a markup language for writing structured documents in plain text! Up supports:
+
+- Super easy [topic: tables]
+- [Topic: revealable content] (e.g. spoilers)
+- [Topic: description lists]
+- [Topic: overlapping]
+- So much more!
 
 For software developers, Up offers a software library that converts Up markup into HTML. To learn more, please see [topic: using the Up library].
 
@@ -1048,11 +1054,11 @@ If your list item contains more than one line, subsequent lines should be indent
 
 Markup
   ````
-  - Buy milk.
+  - Buy milk!
 
     If whole milk is on sale, buy that. Otherwise, buy 2%.
 
-  - Buy bread.
+  - Buy bread!
 
     Only buy bread from one of the following brands:
 
@@ -1060,17 +1066,17 @@ Markup
     * Udi’s
     * Canyon Bakehouse
 
-  - Buy happiness.
+  - Buy happiness!
 
-    Don’t spend more than a few cents on this.
+    It’s usually near the self-checkout area.
   ````
 
 Output
-  - Buy milk.
+  - Buy milk!
 
     If whole milk is on sale, buy that. Otherwise, buy 2%.
 
-  - Buy bread.
+  - Buy bread!
 
     Only buy bread from one of the following brands:
 
@@ -1078,9 +1084,9 @@ Output
     * Udi’s
     * Canyon Bakehouse
 
-  - Buy happiness.
+  - Buy happiness!
 
-    Don’t spend more than a few cents on this.
+    It’s usually near the self-checkout area.
 
 
 ==============

@@ -1,0 +1,9 @@
+// Without some extra margin, consecutive lists appear merged together.
+ol + ol,
+ul + ul { margin-top: 40px }
+
+// Most list items contain just a single line (technically a paragraph).
+//
+// Unless we shrink the margins of that single inner paragraph, those
+// list items appear a little too spaced out.
+li p:only-child { margin: .5em 0 }
