@@ -13,7 +13,7 @@ export default function configureTableOfContentsVisibility(documentationTab, tab
 
     // However, if the user clicks a revealable convention's "reveal"
     // button within a table of contents entry, we want the table of
-    // contents remain visible.
+    // contents to remain visible.
     //
     // Each "reveal" button is actually a <label> element associated
     // with an <input> element. When clicking on a label with an
