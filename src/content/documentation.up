@@ -1633,7 +1633,7 @@ Output
   Leech Seed;   Grass;    ;       90%
   Vine Whip;    Grass;    45;     100%
 
-When your table has a header column, Up automatically inserts an extra blank cell at the beginning of the header row in the top level corner, above the header column.
+When your table has a header column, Up automatically inserts an extra blank cell at the beginning of the header row, just above the header column.
 
 
 ===========
