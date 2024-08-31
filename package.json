@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "The official site for [Up](https://github.com/start/up), a markup language for writing structured content in plain text.",
   "scripts": {
-    "start": "webpack-dev-server",
+    "dev": "webpack-dev-server",
     "build": "rm -f docs/{index.html,*.js} && webpack"
   },
   "repository": {

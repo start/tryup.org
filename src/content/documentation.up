@@ -18,7 +18,7 @@ For software developers, Up offers a software library that converts Up markup in
 Why use Up?
 ===========
 
-Up isn’t the only markup language that produces HTML. What makes it special?
+Up isn’t the only markup language that produces HTML. [Markdown] (en.wikipedia.org/wiki/Markdown), for example, is hugely popular. What makes Up special?
 
 
 Up has a flexible, forgiving syntax
@@ -50,7 +50,7 @@ Markup
 Output
   I ***love****** asterisks!
 
-Up isn’t picky about which brackets you use for [topic: links].
+Unlike Markdown, Up isn’t picky about which brackets you use for [topic: links].
 
 Markup
   ````
@@ -1490,11 +1490,9 @@ Likewise, if you want a cell to span six columns, terminate that cell with six s
 Empty cells
 -----------
 
-A cell consisting solely of spaces (one or more) is considered empty.
+As we've already seen, a cell consisting solely of spaces (one or more) is considered empty.
 
-Normally, you have to put at least one space in the cell, because consecutive semicolons indicate that you want the previous cell to span multiple columns.
-
-However, to indicate that the *first* cell in a row should be empty, simply start that row with a semicolon. You don’t need to put any spaces before it.
+However, to indicate that the *first* cell in a row should be empty, you can simply start that row with a semicolon. You don’t need to put any spaces before it.
 
 Markup
   ````
