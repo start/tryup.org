@@ -5,3 +5,5 @@
 @import 'documentation-container';
 @import 'syncing-animation';
 @import 'lib/codemirror';
+
+html { scroll-behavior: smooth; }
