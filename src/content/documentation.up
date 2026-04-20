@@ -575,9 +575,9 @@ Output
 Code starting or ending with backticks
 --------------------------------------
 
-If your inline code needs to start or end with backticks, you can place a single space between the inner backticks and the outer delimiter. That one space is trimmed away.
+If your inline code content starts with or ends with backticks, you can place a single space between the outer (delimiting) backticks and the inner (content) backticks. In this specific circumstance, that extra space is trimmed away.
 
-In this example, the inline code both starts and ends with a backtick, so the space is trimmed from both sides:
+Below, the inline code content starts with and ends with a backtick, so one space is trimmed from each side:
 
 Markup
   ````
@@ -591,13 +591,13 @@ Any spaces beyond that single space are preserved---if there are multiple spaces
 
 Markup
   ````
-  ``    `many spaces on either side`    ``
+  ``  `two.become(1)`  ``
   ````
 
 Output
-  ``    `inline_code`    ``
+  ``  `two.become(1)`  ``
 
-If either "side" of inline code contains any non-space characters between the inner and outer backticks, no space is trimmed from that side.
+If either "side" of inline code contains a non-space character between the outer and inner backticks, no space is trimmed from that side.
 
 Markup
   ````
